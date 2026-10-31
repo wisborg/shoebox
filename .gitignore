@@ -1,0 +1,14 @@
+# A running Shoebox's data directory: the database and every photo in it,
+# with the metadata of each. Real photos never enter a commit, a fixture or a
+# doc -- tests build synthetic images instead.
+/data/
+example_files/
+
+# Session output: renders, captured diffs, inspected images.
+.scratch/
+
+# The built command.
+/shoebox
+
+# Finder's folder settings, which macOS writes into any directory it opens.
+.DS_Store
